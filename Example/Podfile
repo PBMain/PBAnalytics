@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PBAnalytics_Example' do
+  pod 'PBAnalytics', :path => '../'
+
+  target 'PBAnalytics_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

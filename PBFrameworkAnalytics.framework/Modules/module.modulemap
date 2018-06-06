@@ -1,0 +1,6 @@
+framework module PBFrameworkAnalytics {
+  umbrella header "PBFrameworkAnalytics.h"
+
+  export *
+  module * { export * }
+}
