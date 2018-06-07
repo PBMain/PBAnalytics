@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PBAnalytics'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of PBAnalytics.'
 
   s.description      = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/PBMain'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'philbelley' => 'pbelley@photobutler.com' }
-  s.source           = { :git => 'https://github.com/PBMain/PBPodAnalytics.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/PBMain/PBAnalytics.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.3'
 
