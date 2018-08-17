@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PBAnalytics'
-  s.version          = '1.0.1.2'
+  s.version          = '1.0.6.1'
   s.summary          = 'A short description of PBAnalytics.'
 
   s.description      = <<-DESC
