@@ -31,6 +31,7 @@ static NSString* TRACK_NANIGAN = @"trackNanigan";
 + (void) flushMixpanel:(void (^)(id success))completionBlock;
 + (BOOL) isProductionEnvironment;
 - (void) registerNewTracker: (NSObject*)tracker;
+- (void) setNewIntercomID:(NSString*)intercomAppID andAPIKey:(NSString*)intercomAPIKey;
 @property (nonatomic) NSMutableArray* externalTrackers;
 @property (nonatomic) NSMutableDictionary *trackingUserData;
 
