@@ -33,6 +33,11 @@ static NSString* TRACK_NANIGAN = @"trackNanigan";
 - (void) registerNewTracker: (NSObject*)tracker;
 - (void) setNewIntercomID:(NSString*)intercomAppID andAPIKey:(NSString*)intercomAPIKey;
 @property (nonatomic) NSMutableArray* externalTrackers;
+@property (nonatomic) NSMutableDictionary* mixpanelInstances;
 @property (nonatomic) NSMutableDictionary *trackingUserData;
+
+// For having additional mixpanel projects
++(void) mixpanelAddToken:(NSString*)token;
++(void) mixpanelClearTokens;
 
 @end
