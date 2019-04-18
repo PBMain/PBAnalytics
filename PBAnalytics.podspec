@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PBAnalytics'
-  s.version          = '1.3.1.2'
+  s.version          = '1.3.1.3'
   s.summary          = 'A short description of PBAnalytics.'
 
   s.description      = <<-DESC
@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
 
   #s.source_files = 'PBAnalytics/Classes/**/*'
   
+  s.frameworks = 'AdSupport'
   s.ios.vendored_frameworks = 'PBFrameworkAnalytics.framework', 'NanigansSDK.framework', 'Intercom.framework'
   s.libraries = 'c++', 'z'
   s.dependency 'Mixpanel'
