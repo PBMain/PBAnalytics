@@ -1,11 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'PBAnalytics'
-  s.version          = '1.2.2.1'
+  s.version          = '1.3.1.1'
   s.summary          = 'A short description of PBAnalytics.'
 
   s.description      = <<-DESC
   The goal is crafting a Pod that has all requirements for the tracking and Analysis. The included libraries are as follows:
-  FBSDKCoreKit (Facebook),
   Mixpanel,
   Intercom v4.1.9,
   GoogleAnalytics,
@@ -23,7 +22,6 @@ Pod::Spec.new do |s|
   
   s.ios.vendored_frameworks = 'PBFrameworkAnalytics.framework', 'NanigansSDK.framework', 'Intercom.framework'
   s.libraries = 'c++', 'z'
-  s.dependency 'FBSDKCoreKit'
   s.dependency 'Mixpanel'
   
   
