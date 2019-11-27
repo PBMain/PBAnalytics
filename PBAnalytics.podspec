@@ -1,19 +1,16 @@
 Pod::Spec.new do |s|
   s.name             = 'PBAnalytics'
-  s.version          = '1.3.1.3'
+  s.version          = '1.5.0.0'
   s.summary          = 'A short description of PBAnalytics.'
 
   s.description      = <<-DESC
   The goal is crafting a Pod that has all requirements for the tracking and Analysis. The included libraries are as follows:
-  Mixpanel,
-  Intercom v4.1.9,
-  GoogleAnalytics,
-  Nanigans.
+  Mixpanel
                        DESC
 
   s.homepage         = 'https://github.com/PBMain'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'philbelley' => 'pbelley@photobutler.com' }
+  s.author           = { 'Dan Spencer' => 'danspencer@photobutler.com' }
   s.source           = { :git => 'https://github.com/PBMain/PBAnalytics.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.3'
@@ -21,7 +18,7 @@ Pod::Spec.new do |s|
   #s.source_files = 'PBAnalytics/Classes/**/*'
   
   s.frameworks = 'AdSupport'
-  s.ios.vendored_frameworks = 'PBFrameworkAnalytics.framework', 'NanigansSDK.framework', 'Intercom.framework'
+  s.ios.vendored_frameworks = 'PBFrameworkAnalytics.framework'
   s.libraries = 'c++', 'z'
   s.dependency 'Mixpanel'
   
