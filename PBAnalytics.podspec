@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PBAnalytics'
-  s.version          = '1.5.3.1'
-  s.summary          = 'A short description of PBAnalytics.'
+  s.version          = '1.5.4.1'
+  s.summary          = 'Analytics related functionality for Photo Butler powered apps.'
 
   s.description      = <<-DESC
   The goal is crafting a Pod that has all requirements for the tracking and Analysis. The included libraries are as follows:
